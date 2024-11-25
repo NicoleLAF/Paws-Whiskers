@@ -53,7 +53,6 @@
       </div>
     
       <script>
-        // Inicializa o carrinho com os dados do LocalStorage (ou vazio se não houver dados)
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
     
         function addToCart(name, price) {
@@ -117,37 +116,37 @@
         <div class="card">
                 <img src="./Imagens/racaoparahamster.png" alt="Imagem do Card">
             <div class="content">
-                <h3>Humster Food</h3>
+                <h3>Comida de hamster</h3>
                 <h3 class="preco">R$ 18,00</h3>
                 <p>Ração para roedores rica em nutrientes 500g.</p>
-                <button onclick="addToCart('Ração', 18)">Adicionar ao carrinho</button>
+                <button onclick="addToCart('Comida de hamster', 18)">Adicionar ao carrinho</button>
             </div>
         </div>  
         <div class="card">
                 <img src="./Imagens/gaiolaparahamster.png" alt="Imagem do Card">
             <div class="content">
-                <h3>Hamster amigo</h3>
-                <h3 class="preco">R$ 30,00</h3>
+                <h3>Gaiola para roedores</h3>
+                <h3 class="preco">R$ 249,98</h3>
                 <p>Gaiola para hamster ficar confortável e se divertir bastante.</p>
-                <button onclick="addToCart('Ração', 30)">Adicionar ao carrinho</button>
+                <button onclick="addToCart('Gaiola para roedores', 249.98)">Adicionar ao carrinho</button>
             </div>
         </div>  
         <div class="card">
                 <img src="./Imagens/bebedouro-para-ratos-para-roedores-9642389-7883045.webp" alt="Imagem do Card">
             <div class="content">
-                <h3>Ratinho Feliz</h3>
-                <h3 class="preco">R$ 11,00</h3>
+                <h3>Bebedouro para roedores</h3>
+                <h3 class="preco">R$ 11,99</h3>
                 <p>Bebedouro para roedores 125ml.</p>
-                <button onclick="addToCart('Ração', 11)">Adicionar ao carrinho</button>
+                <button onclick="addToCart('Bebedouro para roedores', 11.99)">Adicionar ao carrinho</button>
             </div>
         </div>  
         <div class="card">
-                <img src="./Imagens/caixadetransporte.png" alt="Imagem do Card">
+                <img src="./Imagens/roda.jpg" alt="Imagem do Card">
             <div class="content">
-                <h3>Ratinho Feliz</h3>
-                <h3 class="preco">R$ 39,00</h3>
-                <p>Caixa de transporte para Coelhos.</p>
-                <button onclick="addToCart('Ração', 39)">Adicionar ao carrinho</button>
+                <h3>Rodinha para roedores</h3>
+                <h3 class="preco">R$ 19,98</h3>
+                <p>Rodinha para hamsters e outos roedores.</p>
+                <button onclick="addToCart('Rodinha para roedores', 19.98)">Adicionar ao carrinho</button>
             </div>
         </div> 
         <div class="card">
@@ -156,7 +155,7 @@
                 <h3>Elimine Pragas</h3>
                 <h3 class="preco">R$ 14,90</h3>
                 <p>Raticida 200g.</p>
-                <button onclick="addToCart('Ração', 14.90)">Adicionar ao carrinho</button>
+                <button onclick="addToCart('Elimine Pragas', 14.90)">Adicionar ao carrinho</button>
             </div>
         </div> 
     </div>
